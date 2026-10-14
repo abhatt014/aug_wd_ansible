@@ -1,0 +1,7 @@
+---
+- name: its a test playbook
+  hosts: all
+  tasks:
+    - name: use ping module
+      win_ping:
+ 
