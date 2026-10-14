@@ -5,3 +5,8 @@
   tasks:
     - name: use ping module
       ping:
+    - name: print username
+      debug:
+        msg: "Hello {{user_name}}"
+
+    
